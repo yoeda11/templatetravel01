@@ -5,6 +5,8 @@
 
 :root {
     --primary: #48B3AF;
+    --secondary: #A7E399;
+    --tertiary: #F6FF99;
     --bg: #476EAE;
 }
 
@@ -30,7 +32,7 @@ body {
     align-items: center;
     padding: 1.4rem 7%;
     background-color: rgba(0, 15, 50, 0.8);
-    border-bottom: 1px solid #F6FF99;
+    border-bottom: 1px solid var(--primary);
     position: fixed;
     top: 0;
     left: 0;
@@ -41,7 +43,7 @@ body {
 .navbar .navbar-logo {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #F6FF99;
+    color: var(--secondary);
     font-style: italic;
 }
 
@@ -71,6 +73,32 @@ body {
 
 .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.5);
+}
+
+.navbar .navbar-extra a {
+    color: #fff;
+    margin: 0 0.5rem;
+    /* display: inline-block; */
+    /* font-size: 1.2rem; */
+    /* margin-left: 1.5rem; */
+}
+
+.navbar .navbar-extra a:hover {
+    color: var(--primary);
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.search-form {
+  display: none;
+}
+
+.hero {
+    display: flex;
+    background-image: url('../images/pantai.jpg');
+    position: relative;
 }
 
 /* 
