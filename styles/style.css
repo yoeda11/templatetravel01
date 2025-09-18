@@ -97,9 +97,19 @@ body {
 
 .hero {
     display: flex;
+    height: 300px;
+    align-items: center;
     background-image: url('../images/pantai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
+
 }
+
+.hero .mask-container {
+    position: absolute;
+}   
 
 /* 
 .poppins-thin {
