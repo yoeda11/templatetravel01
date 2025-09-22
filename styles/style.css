@@ -4,10 +4,10 @@
 /* #476EAE #48B3AF #A7E399 #F6FF99 yang dipakai */
 
 :root {
-    --primary: #48B3AF;
-    --secondary: #A7E399;
-    --tertiary: #F6FF99;
-    --bg: #476EAE;
+    --primary: #D2C1B6;
+    --secondary: #456882;
+    --tertiary: #234C6A;
+    --bg: #1B3C53;
 }
 
 * {
@@ -22,7 +22,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
-    color: var(--primary);
+    color: #fff;
     /* height: 4000px; */
 }
 
@@ -43,7 +43,8 @@ body {
 .navbar .navbar-logo {
     font-size: 1.4rem;
     font-weight: 700;
-    color: var(--secondary);
+    color: #fff;
+    /* color: var(--secondary); */
     font-style: italic;
 }
 
@@ -110,7 +111,45 @@ body {
 
 .hero .mask-container {
     position: absolute;
-}   
+}
+
+.about {
+    padding: 8rem 7% 1.4rem;
+}
+
+.about h2 {
+    text-align: center;
+    font: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.about h2 span {
+    color: var(--primary);
+}
+
+.about .row {
+    display: flex;
+}
+
+.about .row .about-img {
+    flex: 1 1 45rem;
+}
+
+.about .content {
+    padding-left: 1rem;
+}
+
+.about .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
 
 /* 
 .poppins-thin {
