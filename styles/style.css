@@ -113,17 +113,21 @@ body {
     position: absolute;
 }
 
-.about {
+/* section about */
+.about, 
+.promo {
     padding: 8rem 7% 1.4rem;
 }
 
-.about h2 {
+.about h2, 
+.promo h2 {
     text-align: center;
     font: 2.6rem;
     margin-bottom: 3rem;
 }
 
-.about h2 span {
+.about h2 span, 
+.promo h2 span {
     color: var(--primary);
 }
 
@@ -150,6 +154,51 @@ body {
     font-weight: 100;
     line-height: 1.6;
 }
+
+/* section promo */
+.promo .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.promo h2 {
+    margin-bottom: 1rem;
+}
+
+.promo p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.promo .row .promo-card {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.promo .row .promo-card img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.promo .row .promo-card .promo-card-title {
+    margin: 1rem auto 0.5rem;
+}
+
+
+/* Media Queries */
+/* Laptop */
+/*
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+*/
 
 /* 
 .poppins-thin {
