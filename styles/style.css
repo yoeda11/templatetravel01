@@ -19,6 +19,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
@@ -191,24 +195,15 @@ body {
 }
 
 /* AWAL COBA TES TAMPILAN SEMENTARA */
-@media (max-width: 1366px) {
-  html {
-    font-size: 75%;
-  }
-}
-/* AKHIR COBA TES TAMPILAN SEMENTARA */
 
 /* Media Queries */
 /* Laptop */
-/*
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
   }
 }
-*/
-
-/* 
+ 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -239,4 +234,4 @@ body {
   font-style: normal;
 }
 
-*/
+/* AKHIR COBA TES TAMPILAN SEMENTARA */
